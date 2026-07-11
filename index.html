@@ -735,13 +735,13 @@ const WEB3FORMS_KEY = "YOUR-WEB3FORMS-ACCESS-KEY-HERE";
 /* ========== CHIP GROUPS ========== */
 document.querySelectorAll('.chip').forEach(chip=>{
   const input = chip.querySelector('input');
-  chip.addEventListener('click',e=>{
-    if(e.target.tagName==='INPUT')return;
-    input.checked = !input.checked;
-    chip.classList.toggle('checked', input.checked);
-  });
+  // Il <label> gestisce nativamente il toggle del checkbox interno.
+  // Ci limitiamo a sincronizzare la classe .checked quando lo stato cambia.
   input.addEventListener('change',()=>chip.classList.toggle('checked', input.checked));
+  // Sync iniziale (nel caso il browser ripristini valori da autofill)
+  if(input.checked) chip.classList.add('checked');
 });
+
 
 /* ========== FILE UPLOAD ========== */
 const uploadZone = document.getElementById('uploadZone');

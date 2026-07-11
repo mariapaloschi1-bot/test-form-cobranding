@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Brief di co-branding editoriale — Fattoretto Agency. Modulo strategico per attività di Digital PR e Link Building.">
+<meta name="robots" content="noindex, nofollow">
+<title>Brief Co-Branding Editoriale — Fattoretto Agency</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --red:#C8102E;--red-soft:#F5E6E9;--red-dark:#A00D25;
+  --ink:#111111;--ink-2:#1E1E1E;--ink-3:#2B2B2B;
+  --graphite:#3D3D3D;--slate:#6B6B6E;--slate-2:#8A8A8D;
+  --line:#E5E5E7;--line-2:#EFEFF1;
+  --bg:#FBFAF8;--paper:#FFFFFF;
+  --success:#2E6F40;--success-bg:#EDF3EE;
+  --warning:#8B5A00;--warning-bg:#F5EEE0;
+  --muted:#F4F3F0;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);color:var(--ink);
+  font-family:'Montserrat',system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-weight:400;line-height:1.55;
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+  min-height:100vh;
+}
+
+.wrap{max-width:960px;margin:0 auto;padding:56px 40px 80px}
+
+/* HEADER */
+.header{
+  display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end;
+  padding-bottom:32px;margin-bottom:44px;border-bottom:1px solid var(--line);
+}
+.brand-mark{display:flex;align-items:center;gap:14px;margin-bottom:20px}
+.brand-dot{width:10px;height:10px;background:var(--red);border-radius:1px}
+.brand-name{
+  font-family:'Montserrat',sans-serif;font-weight:700;font-size:13px;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--ink);
+}
+.brand-name em{font-style:normal;font-weight:400;color:var(--slate)}
+.kicker{
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:500;
+  color:var(--red);letter-spacing:.22em;text-transform:uppercase;margin-bottom:14px;
+}
+.header h1{
+  font-family:'Montserrat',sans-serif;font-weight:700;font-size:36px;
+  color:var(--ink);letter-spacing:-.02em;line-height:1.1;
+}
+.header h1 em{font-style:normal;font-weight:400;color:var(--red)}
+.lede{
+  font-size:14.5px;color:var(--slate);margin-top:16px;font-weight:400;
+  max-width:560px;line-height:1.65;
+}
+.header-meta{
+  text-align:right;font-size:11px;color:var(--slate);
+  display:flex;flex-direction:column;gap:6px;line-height:1.5;
+}
+.meta-block{
+  border-top:1px solid var(--line);padding-top:12px;text-align:left;min-width:220px;
+}
+.meta-label{
+  color:var(--slate-2);text-transform:uppercase;letter-spacing:.14em;
+  font-size:9.5px;font-weight:600;margin-bottom:6px;
+}
+.meta-row{
+  display:flex;justify-content:space-between;align-items:baseline;
+  font-family:'JetBrains Mono',monospace;font-size:11.5px;
+}
+.meta-row span:first-child{color:var(--slate)}
+.meta-row span:last-child{color:var(--ink);font-weight:500}
+
+/* INTRO CARD */
+.intro-card{
+  background:var(--paper);border:1px solid var(--line);border-radius:2px;
+  padding:36px 40px;margin-bottom:48px;
+  display:grid;grid-template-columns:1.4fr 1fr;gap:0;
+}
+.intro-left{padding-right:40px;border-right:1px solid var(--line)}
+.intro-right{padding-left:40px;background:transparent}
+.intro-eyebrow{
+  font-size:10px;font-weight:600;color:var(--slate-2);letter-spacing:.20em;
+  text-transform:uppercase;margin-bottom:18px;
+  display:flex;align-items:center;gap:10px;
+}
+.intro-eyebrow::before{content:'';width:20px;height:1px;background:var(--red)}
+.intro-headline{
+  font-family:'Montserrat',sans-serif;font-weight:500;font-size:22px;
+  line-height:1.4;color:var(--ink);letter-spacing:-.005em;
+}
+.intro-headline strong{font-weight:700;color:var(--ink)}
+.intro-body{
+  font-size:13.5px;color:var(--slate);margin-top:16px;line-height:1.7;
+}
+.intro-list{list-style:none;padding:0;margin:0}
+.intro-list li{
+  padding:12px 0;border-bottom:1px solid var(--line-2);
+  font-size:12.5px;color:var(--slate);display:flex;gap:12px;align-items:baseline;
+}
+.intro-list li:last-child{border-bottom:none}
+.intro-list .num{
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--red);
+  font-weight:600;min-width:24px;
+}
+.intro-list strong{color:var(--ink);font-weight:600;display:block;font-size:12.5px;margin-bottom:2px}
+
+/* SECTIONS */
+.section{margin-bottom:48px}
+.section-head{margin-bottom:24px;max-width:820px}
+.section-num{
+  font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--red);
+  font-weight:500;letter-spacing:.1em;margin-bottom:10px;
+}
+.section-title{
+  font-family:'Montserrat',sans-serif;font-weight:700;font-size:20px;
+  text-transform:uppercase;letter-spacing:.02em;color:var(--ink);
+  line-height:1.2;
+}
+.section-desc{
+  font-size:13px;color:var(--slate);margin-top:8px;line-height:1.65;max-width:720px;
+}
+
+/* CARD */
+.card{
+  background:var(--paper);border:1px solid var(--line);border-radius:2px;
+  padding:32px 36px;
+}
+
+/* FORM FIELDS */
+.field{margin-bottom:26px}
+.field:last-child{margin-bottom:0}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:26px}
+
+.label{
+  display:block;font-size:11px;font-weight:600;color:var(--ink);
+  letter-spacing:.10em;text-transform:uppercase;margin-bottom:8px;
+}
+.label .req{color:var(--red);margin-left:4px}
+.hint{
+  font-size:12px;color:var(--slate);margin-bottom:12px;line-height:1.55;
+  font-weight:400;
+}
+.hint strong{color:var(--ink-2);font-weight:600}
+
+.input,.textarea,.select{
+  width:100%;background:var(--bg);border:1px solid var(--line);
+  padding:14px 16px;font-size:14px;font-family:inherit;color:var(--ink);
+  border-radius:2px;transition:all .15s;line-height:1.5;
+  -webkit-appearance:none;appearance:none;
+}
+.input:focus,.textarea:focus,.select:focus{
+  outline:none;border-color:var(--ink);background:var(--paper);
+  box-shadow:0 0 0 3px rgba(200,16,46,.06);
+}
+.textarea{resize:vertical;min-height:120px;font-family:inherit}
+.textarea.tall{min-height:160px}
+.input::placeholder,.textarea::placeholder{color:var(--slate-2);font-weight:400}
+
+.select{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236B6B6E' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 16px center;padding-right:44px;
+}
+
+/* CHECKBOX / RADIO GROUP */
+.chip-group{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.chip{
+  display:inline-flex;align-items:center;gap:8px;padding:9px 14px;
+  border:1px solid var(--line);background:var(--paper);border-radius:20px;
+  font-size:12.5px;font-weight:500;color:var(--slate);cursor:pointer;
+  font-family:inherit;transition:all .15s;user-select:none;
+}
+.chip:hover{color:var(--ink);border-color:var(--ink-3)}
+.chip input{position:absolute;opacity:0;pointer-events:none}
+.chip.checked{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip.checked::before{content:'✓';font-family:'JetBrains Mono',monospace;font-weight:700}
+
+/* IMAGE UPLOAD — PREMIUM */
+.upload{
+  position:relative;
+  border:1.5px dashed var(--line);background:var(--bg);
+  border-radius:3px;padding:44px 28px;text-align:center;
+  cursor:pointer;transition:all .2s cubic-bezier(.4,0,.2,1);
+  display:block;overflow:hidden;
+}
+.upload::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(circle at 50% 50%, var(--red-soft) 0%, transparent 60%);
+  opacity:0;transition:opacity .3s;pointer-events:none;
+}
+.upload:hover{border-color:var(--ink-3);background:var(--paper);transform:translateY(-1px)}
+.upload:hover::before{opacity:.4}
+.upload.dragover{
+  border-color:var(--red);border-style:solid;background:var(--red-soft);
+  transform:scale(1.005);
+}
+.upload.dragover::before{opacity:1}
+.upload input[type=file]{display:none}
+.upload-inner{position:relative;z-index:1}
+.upload-icon{
+  width:52px;height:52px;margin:0 auto 16px;display:flex;align-items:center;
+  justify-content:center;background:var(--paper);border:1px solid var(--line);
+  border-radius:50%;transition:all .2s;
+}
+.upload:hover .upload-icon{border-color:var(--red);transform:translateY(-2px)}
+.upload.dragover .upload-icon{background:var(--red);border-color:var(--red)}
+.upload.dragover .upload-icon svg{stroke:#fff}
+.upload-title{
+  font-size:14px;font-weight:600;color:var(--ink);margin-bottom:6px;
+  letter-spacing:-.005em;
+}
+.upload-title strong{color:var(--red);font-weight:600}
+.upload-hint{
+  font-size:11px;color:var(--slate);line-height:1.6;
+  font-family:'JetBrains Mono',monospace;letter-spacing:.04em;
+}
+.upload-specs{
+  display:inline-flex;gap:0;margin-top:14px;
+  border:1px solid var(--line);border-radius:20px;overflow:hidden;
+  background:var(--paper);
+}
+.upload-spec{
+  font-family:'JetBrains Mono',monospace;font-size:10px;
+  padding:6px 12px;color:var(--slate);letter-spacing:.05em;
+  border-right:1px solid var(--line);font-weight:500;
+}
+.upload-spec:last-child{border-right:none}
+.upload-spec strong{color:var(--ink);font-weight:600}
+
+/* File preview grid */
+.upload-list{
+  margin-top:18px;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(140px,1fr));
+  gap:12px;
+}
+.upload-file{
+  position:relative;background:var(--paper);border:1px solid var(--line);
+  border-radius:3px;overflow:hidden;transition:all .2s;
+  animation:fadeInUp .3s ease-out;
+}
+.upload-file:hover{border-color:var(--ink-3);box-shadow:0 4px 16px rgba(0,0,0,.06)}
+.upload-file-thumb{
+  width:100%;aspect-ratio:4/3;background:var(--muted);
+  background-size:cover;background-position:center;
+  border-bottom:1px solid var(--line);position:relative;
+}
+.upload-file-thumb.no-preview{
+  display:flex;align-items:center;justify-content:center;
+  color:var(--slate-2);font-family:'JetBrains Mono',monospace;
+  font-size:11px;letter-spacing:.08em;font-weight:600;
+}
+.upload-file-meta{padding:10px 12px}
+.upload-file .fn{
+  color:var(--ink);font-weight:500;font-size:11.5px;line-height:1.35;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;
+  letter-spacing:-.005em;
+}
+.upload-file .fs{
+  color:var(--slate-2);font-family:'JetBrains Mono',monospace;
+  font-size:9.5px;margin-top:3px;letter-spacing:.05em;
+  display:flex;align-items:center;gap:6px;
+}
+.upload-file .fs::before{
+  content:'';width:4px;height:4px;border-radius:50%;background:var(--success);
+}
+.upload-file .rm{
+  position:absolute;top:6px;right:6px;
+  width:24px;height:24px;padding:0;
+  background:rgba(17,17,17,.85);border:none;color:#fff;
+  border-radius:50%;cursor:pointer;font-family:inherit;
+  font-size:14px;line-height:1;display:flex;align-items:center;justify-content:center;
+  transition:all .15s;backdrop-filter:blur(4px);opacity:0;
+}
+.upload-file:hover .rm{opacity:1}
+.upload-file .rm:hover{background:var(--red);transform:scale(1.1)}
+@keyframes fadeInUp{
+  from{opacity:0;transform:translateY(8px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.upload-summary{
+  display:none;margin-top:14px;padding:10px 14px;
+  background:var(--muted);border-left:2px solid var(--red);
+  font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--slate);
+  letter-spacing:.04em;
+}
+.upload-summary.active{display:flex;justify-content:space-between;align-items:center}
+.upload-summary strong{color:var(--ink);font-weight:600}
+.upload-summary .clear-all{
+  background:none;border:none;color:var(--red);cursor:pointer;
+  font-family:inherit;font-size:11px;font-weight:600;
+  text-decoration:underline;text-underline-offset:2px;
+}
+
+/* SUBMIT BAR */
+.submit-bar{
+  margin-top:44px;padding-top:32px;border-top:1px solid var(--line);
+  display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;
+}
+.submit-note{font-size:12px;color:var(--slate);line-height:1.6;max-width:480px}
+.submit-note strong{color:var(--ink);font-weight:600}
+.btn{
+  background:var(--ink);color:var(--paper);border:none;
+  padding:16px 32px;font-family:inherit;font-size:12.5px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;cursor:pointer;
+  border-radius:2px;transition:all .15s;display:inline-flex;align-items:center;gap:12px;
+}
+.btn:hover{background:var(--red)}
+.btn:disabled{opacity:.5;cursor:not-allowed;background:var(--slate)}
+.btn .arrow{font-family:'JetBrains Mono',monospace;font-size:16px;line-height:1}
+
+/* CONTACT FOOTER */
+.contact{
+  margin-top:64px;padding-top:36px;border-top:1px solid var(--line);
+  display:grid;grid-template-columns:1fr 1fr;gap:32px;
+}
+.contact-block{}
+.contact-eyebrow{
+  font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--red);
+  letter-spacing:.20em;text-transform:uppercase;margin-bottom:10px;font-weight:500;
+}
+.contact-name{font-size:13.5px;font-weight:600;color:var(--ink);margin-bottom:2px}
+.contact-role{font-size:11.5px;color:var(--slate);margin-bottom:8px}
+.contact-mail{
+  font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--ink-2);
+  text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px;
+}
+.contact-mail:hover{color:var(--red);border-color:var(--red)}
+
+/* FOOTER */
+.footer{
+  margin-top:56px;padding-top:24px;border-top:1px solid var(--line);
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--slate-2);
+  letter-spacing:.08em;text-transform:uppercase;
+}
+.footer a{color:var(--slate);text-decoration:none}
+.footer a:hover{color:var(--red)}
+
+/* SUCCESS SCREEN */
+.success-screen{
+  display:none;position:fixed;inset:0;background:var(--bg);z-index:100;
+  align-items:center;justify-content:center;padding:32px;
+}
+.success-screen.active{display:flex}
+.success-card{
+  max-width:520px;text-align:center;background:var(--paper);
+  border:1px solid var(--line);border-radius:2px;padding:56px 44px;
+}
+.success-icon{
+  width:64px;height:64px;margin:0 auto 24px;
+  border:2px solid var(--success);border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  color:var(--success);font-size:28px;font-weight:700;
+}
+.success-kicker{
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--success);
+  letter-spacing:.22em;text-transform:uppercase;margin-bottom:14px;font-weight:600;
+}
+.success-title{
+  font-family:'Montserrat',sans-serif;font-weight:700;font-size:26px;
+  color:var(--ink);letter-spacing:-.015em;margin-bottom:14px;
+}
+.success-body{
+  font-size:13.5px;color:var(--slate);line-height:1.7;margin-bottom:28px;
+}
+.success-body strong{color:var(--ink);font-weight:600}
+.success-close{
+  background:none;border:1px solid var(--line);color:var(--ink);
+  padding:12px 24px;font-family:inherit;font-size:11.5px;font-weight:600;
+  letter-spacing:.12em;text-transform:uppercase;cursor:pointer;border-radius:2px;
+}
+.success-close:hover{border-color:var(--ink)}
+
+/* ERROR BANNER */
+.error-banner{
+  display:none;margin-top:20px;padding:14px 18px;background:var(--red-soft);
+  border-left:3px solid var(--red);border-radius:2px;
+  font-size:12.5px;color:var(--ink-2);line-height:1.55;
+}
+.error-banner.active{display:block}
+
+/* LOADING */
+.spinner{
+  width:14px;height:14px;border:2px solid rgba(255,255,255,.3);
+  border-top-color:#fff;border-radius:50%;display:inline-block;
+  animation:spin .7s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ========================= */
+/* MOBILE OPTIMIZATION       */
+/* ========================= */
+@media (max-width:900px){
+  .intro-card{grid-template-columns:1fr}
+  .intro-left{padding-right:0;padding-bottom:28px;border-right:none;border-bottom:1px solid var(--line);margin-bottom:28px}
+  .intro-right{padding-left:0}
+  .contact{grid-template-columns:1fr;gap:24px}
+}
+@media (max-width:720px){
+  .wrap{padding:36px 20px 60px}
+  .header{grid-template-columns:1fr;gap:24px;align-items:start;padding-bottom:24px;margin-bottom:32px}
+  .header h1{font-size:28px}
+  .header-meta{text-align:left}
+  .meta-block{min-width:0;width:100%}
+  .intro-card{padding:24px 22px;margin-bottom:36px}
+  .intro-headline{font-size:18px}
+  .card{padding:22px 20px}
+  .section{margin-bottom:36px}
+  .section-title{font-size:17px}
+  .field-row{grid-template-columns:1fr;gap:0;margin-bottom:0}
+  .field-row .field{margin-bottom:22px}
+  .submit-bar{flex-direction:column;align-items:stretch;gap:18px}
+  .btn{width:100%;justify-content:center;padding:16px 24px}
+  .submit-note{max-width:none;text-align:center;font-size:11.5px}
+  .success-card{padding:40px 24px}
+  .success-title{font-size:22px}
+  .footer{flex-direction:column;align-items:flex-start;gap:8px}
+  .chip{padding:10px 14px;font-size:13px}
+  .input,.textarea,.select{font-size:16px}  /* iOS zoom prevention */
+}
+@media (max-width:400px){
+  .wrap{padding:28px 16px 48px}
+  .header h1{font-size:24px}
+  .kicker{font-size:9.5px;letter-spacing:.18em}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+<!-- HEADER -->
+<header class="header">
+  <div>
+    <div class="brand-mark">
+      <div class="brand-dot"></div>
+      <div class="brand-name">Fattoretto <em>/ Digital PR &amp; Link Building</em></div>
+    </div>
+    <div class="kicker">Brief · Co-Branding Editoriale</div>
+    <h1>Costruiamo insieme<br>una <em>narrazione</em> che vale.</h1>
+    <p class="lede">Un modulo strutturato per raccontarci il tuo brand nel dettaglio. Le risposte qui sotto diventeranno la base editoriale del comunicato co-branded che pubblicheremo insieme.</p>
+  </div>
+  <div class="header-meta">
+    <div class="meta-block">
+      <div class="meta-label">Referente Team</div>
+      <div class="meta-row"><span>Content Lead</span><span>Clarissa M.</span></div>
+      <div class="meta-row"><span>Digital PR Lead</span><span>Christian P.</span></div>
+      <div class="meta-row"><span>Tempo compilazione</span><span>~10 min</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- INTRO CARD -->
+<section class="intro-card">
+  <div class="intro-left">
+    <div class="intro-eyebrow">Perché questo brief</div>
+    <p class="intro-headline">Un articolo co-branded funziona solo se ha <strong>una voce chiara, un angolo forte e dati che nessun altro può raccontare.</strong></p>
+    <p class="intro-body">Le domande che seguono non sono una scheda anagrafica: sono il framework editoriale che usiamo per identificare l'angolo narrativo più performante per il tuo brand. Più il brief è preciso, più il pezzo sarà distintivo — e linkabile.</p>
+  </div>
+  <div class="intro-right">
+    <div class="intro-eyebrow">Cosa produciamo</div>
+    <ul class="intro-list">
+      <li><span class="num">01</span><span><strong>Angolo editoriale</strong>Un taglio narrativo unico, non promozionale.</span></li>
+      <li><span class="num">02</span><span><strong>Comunicato co-branded</strong>Testata + brand, visibilità reciproca.</span></li>
+      <li><span class="num">03</span><span><strong>Link building autoritativo</strong>Backlink da domini ad alta DA/DR.</span></li>
+      <li><span class="num">04</span><span><strong>Asset visuali brandizzati</strong>Cover editoriale 800×600, formato JPG.</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================ -->
+<!-- FORM                          -->
+<!-- ============================ -->
+<form id="briefForm" novalidate>
+
+<!-- Web3Forms honeypot -->
+<input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
+<!-- ================ SECTION 01 · IDENTITÀ ================ -->
+<section class="section">
+  <div class="section-head">
+    <div class="section-num">§ 01 — Identità del brand</div>
+    <h2 class="section-title">Le coordinate essenziali</h2>
+    <p class="section-desc">Iniziamo dalle basi. Ci servono i riferimenti operativi per contestualizzare il brand e definire l'ecosistema digitale in cui si muove.</p>
+  </div>
+
+  <div class="card">
+
+    <div class="field-row">
+      <div class="field">
+        <label class="label" for="brand_name">Nome del brand<span class="req">*</span></label>
+        <input class="input" type="text" id="brand_name" name="brand_name" placeholder="es. Nome S.p.A." required>
+      </div>
+      <div class="field">
+        <label class="label" for="website">Sito web ufficiale<span class="req">*</span></label>
+        <input class="input" type="url" id="website" name="website" placeholder="https://" required>
+      </div>
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label class="label" for="referente">Referente aziendale<span class="req">*</span></label>
+        <input class="input" type="text" id="referente" name="referente" placeholder="Nome e ruolo" required>
+      </div>
+      <div class="field">
+        <label class="label" for="email_ref">Email di contatto<span class="req">*</span></label>
+        <input class="input" type="email" id="email_ref" name="email_ref" placeholder="nome@brand.com" required>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Settore di riferimento<span class="req">*</span></label>
+      <div class="chip-group" data-chip-group="settore">
+        <label class="chip"><input type="checkbox" name="settore" value="Fashion & Apparel">Fashion &amp; Apparel</label>
+        <label class="chip"><input type="checkbox" name="settore" value="Beauty & Cosmesi">Beauty &amp; Cosmesi</label>
+        <label class="chip"><input type="checkbox" name="settore" value="Food & Beverage">Food &amp; Beverage</label>
+        <label class="chip"><input type="checkbox" name="settore" value="Home & Design">Home &amp; Design</label>
+        <label class="chip"><input type="checkbox" name="settore" value="Tech & Elettronica">Tech &amp; Elettronica</label>
+        <label class="chip"><input type="checkbox" name="settore" value="Salute & Benessere">Salute &amp; Benessere</label>
+        <label class="chip"><input type="checkbox" name="settore" value="Travel & Hospitality">Travel &amp; Hospitality</label>
+        <label class="chip"><input type="checkbox" name="settore" value="Luxury">Luxury</label>
+        <label class="chip"><input type="checkbox" name="settore" value="Sport & Outdoor">Sport &amp; Outdoor</label>
+        <label class="chip"><input type="checkbox" name="settore" value="B2B / Servizi">B2B / Servizi</label>
+        <label class="chip"><input type="checkbox" name="settore" value="Altro">Altro</label>
+      </div>
+    </div>
+
+    <div class="field" style="margin-top:26px">
+      <label class="label" for="mercati">Mercati principali di riferimento</label>
+      <p class="hint">In quali paesi il brand ha oggi maggiore penetrazione o vuole crescere nei prossimi 12 mesi?</p>
+      <input class="input" type="text" id="mercati" name="mercati" placeholder="es. Italia, DACH, UK, USA">
+    </div>
+
+  </div>
+</section>
+
+<!-- ================ SECTION 02 · POSIZIONAMENTO ================ -->
+<section class="section">
+  <div class="section-head">
+    <div class="section-num">§ 02 — Posizionamento &amp; narrativa</div>
+    <h2 class="section-title">Chi siete davvero</h2>
+    <p class="section-desc">Qui vogliamo la voce del brand — non il claim istituzionale. Cosa vi rende riconoscibili, come vi raccontereste a chi non vi conosce, quali parole userebbe un vostro cliente affezionato per descrivervi.</p>
+  </div>
+
+  <div class="card">
+
+    <div class="field">
+      <label class="label" for="descrizione">Racconto del brand<span class="req">*</span></label>
+      <p class="hint">Immagina di doverci spiegare il brand in una <strong>presentazione a un giornalista</strong>. Cosa vi rende diversi? Qual è la storia dietro il nome? Qual è il vostro "perché"?</p>
+      <textarea class="textarea tall" id="descrizione" name="descrizione" placeholder="Anno di fondazione, founder, mission originale, evoluzione, ciò che vi distingue oggi sul mercato…" required></textarea>
+    </div>
+
+    <div class="field">
+      <label class="label" for="valori">Valori del brand<span class="req">*</span></label>
+      <p class="hint">I <strong>3-5 valori</strong> che vorreste emergessero da qualsiasi articolo scritto sul vostro brand. Non valori generici (qualità, passione) — quelli specifici che raccontano <em>voi</em>.</p>
+      <textarea class="textarea" id="valori" name="valori" placeholder="es. Artigianalità made in Italy · Slow fashion · Trasparenza filiera · Estetica contemporanea…" required></textarea>
+    </div>
+
+    <div class="field">
+      <label class="label" for="tone_of_voice">Tone of voice</label>
+      <p class="hint">Come parlate al vostro pubblico? Ci sono parole che <strong>usate sempre</strong> o che <strong>evitate sempre</strong>?</p>
+      <textarea class="textarea" id="tone_of_voice" name="tone_of_voice" placeholder="es. Elegante ma diretto, mai autoreferenziale. Evitiamo &quot;luxury&quot; e &quot;esclusivo&quot;, preferiamo &quot;raro&quot; e &quot;curato&quot;…"></textarea>
+    </div>
+
+    <div class="field">
+      <label class="label" for="target">Target di riferimento<span class="req">*</span></label>
+      <p class="hint">Chi è il cliente ideale? Descrivicelo come una persona reale: <strong>età, contesto professionale, abitudini, motivazioni d'acquisto</strong>.</p>
+      <textarea class="textarea" id="target" name="target" placeholder="Persona-tipo, comportamenti, canali frequentati, cosa cerca quando incontra il brand…" required></textarea>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================ SECTION 03 · OFFERTA ================ -->
+<section class="section">
+  <div class="section-head">
+    <div class="section-num">§ 03 — Offerta &amp; punti forti</div>
+    <h2 class="section-title">Cosa c'è di raccontabile</h2>
+    <p class="section-desc">Trasformiamo il vostro portfolio in materia editoriale. Ci servono i punti su cui vale la pena costruire un pezzo — prodotti hero, primati, dati, storie interne che rendono il brand degno di essere raccontato.</p>
+  </div>
+
+  <div class="card">
+
+    <div class="field">
+      <label class="label" for="offerta">Punti essenziali dell'offerta<span class="req">*</span></label>
+      <p class="hint">Cosa vendete, in che fasce di prezzo, con quali collezioni/linee. Se avete un <strong>prodotto/servizio hero</strong>, indicatelo.</p>
+      <textarea class="textarea tall" id="offerta" name="offerta" placeholder="Categorie principali, prodotti bestseller, fasce di prezzo, canali di vendita (e-commerce, retail, wholesale)…" required></textarea>
+    </div>
+
+    <div class="field">
+      <label class="label" for="usp">USP — cosa vi rende unici<span class="req">*</span></label>
+      <p class="hint">Le <strong>3 cose</strong> che potete dire voi e nessun altro competitor. Certificazioni, brevetti, filiera, numeri, primati storici.</p>
+      <textarea class="textarea" id="usp" name="usp" placeholder="1. …&#10;2. …&#10;3. …" required></textarea>
+    </div>
+
+    <div class="field">
+      <label class="label" for="dati_numeri">Dati &amp; numeri raccontabili</label>
+      <p class="hint">I giornalisti amano i numeri. <strong>Fatturato, punti vendita, dipendenti, anni di attività, quote di mercato, produzione annua, % export</strong> — qualsiasi cifra pubblicamente condivisibile è oro editoriale.</p>
+      <textarea class="textarea" id="dati_numeri" name="dati_numeri" placeholder="es. 45 anni di attività · 120 punti vendita in 18 paesi · 60% export · 350k pezzi/anno…"></textarea>
+    </div>
+
+    <div class="field">
+      <label class="label" for="storie">Storie &amp; retroscena</label>
+      <p class="hint">C'è una <strong>storia interna</strong>, un aneddoto del founder, un momento chiave, un progetto speciale che non avete mai comunicato bene? Spesso è lì che si nasconde l'angolo migliore.</p>
+      <textarea class="textarea" id="storie" name="storie" placeholder="Racconta liberamente — poi lo modelliamo noi in taglio editoriale…"></textarea>
+    </div>
+
+    <div class="field">
+      <label class="label" for="competitor">Competitor di riferimento</label>
+      <p class="hint">2-4 brand che considerate diretti competitor (per capire con chi <strong>non</strong> volete essere confusi).</p>
+      <input class="input" type="text" id="competitor" name="competitor" placeholder="es. Brand A, Brand B, Brand C">
+    </div>
+
+  </div>
+</section>
+
+<!-- ================ SECTION 04 · ASSET ================ -->
+<section class="section">
+  <div class="section-head">
+    <div class="section-num">§ 04 — Asset visuali &amp; materiali</div>
+    <h2 class="section-title">L'immagine di copertina</h2>
+    <p class="section-desc">Il comunicato viaggia con un'immagine hero. Ricorda: <strong>800×600 px · JPG · 72 dpi · senza loghi in evidenza</strong>. Se non hai file pronti ora, puoi allegarli in un secondo momento — indicalo nelle note.</p>
+  </div>
+
+  <div class="card">
+
+    <div class="field">
+      <label class="label">Carica immagini di copertina</label>
+      <p class="hint">Puoi allegare <strong>1 immagine campione</strong> (max 5MB) per darci un'idea del mood. Per il set completo, ti consigliamo di condividere una <strong>cartella Drive o link WeTransfer</strong> nel campo qui sotto — gestiamo meglio archivi corposi così. Preferisci scene ambientate, still-life editoriali, dettagli di prodotto — evita foto con logo dominante.</p>
+      <label class="upload" id="uploadZone">
+        <div class="upload-inner">
+          <div class="upload-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B6B6E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+          </div>
+          <div class="upload-title">Trascina un'immagine campione <strong>o clicca per sfogliare</strong></div>
+          <div class="upload-hint">1 file rappresentativo (per set completi usa il link qui sotto)</div>
+          <div class="upload-specs">
+            <span class="upload-spec"><strong>800×600</strong> px</span>
+            <span class="upload-spec"><strong>JPG</strong> · PNG</span>
+            <span class="upload-spec"><strong>72</strong> dpi</span>
+            <span class="upload-spec">max <strong>5MB</strong></span>
+          </div>
+        </div>
+        <input type="file" id="fileInput" multiple accept="image/jpeg,image/png,image/webp">
+      </label>
+      <div class="upload-summary" id="uploadSummary">
+        <span>Immagine allegata · <span id="uploadTotalSize">0 KB</span></span>
+        <button type="button" class="clear-all" id="clearAll">rimuovi</button>
+      </div>
+      <div class="upload-list" id="uploadList"></div>
+    </div>
+
+    <div class="field">
+      <label class="label" for="risorse_link">Link a cartella Drive / WeTransfer / DAM <span style="color:var(--red);font-weight:600;letter-spacing:.02em;text-transform:none;font-size:10.5px;margin-left:6px">→ metodo consigliato</span></label>
+      <p class="hint">Il modo più pulito per condividere l'archivio visivo: <strong>photoshoot completi, campaign, brand book, product shot</strong>. Assicurati che il link abbia permessi di lettura pubblici o "chi ha il link".</p>
+      <input class="input" type="url" id="risorse_link" name="risorse_link" placeholder="https://drive.google.com/…  oppure  https://we.tl/…">
+    </div>
+
+    <div class="field">
+      <label class="label" for="note">Note finali &amp; richieste specifiche</label>
+      <p class="hint">Deadline, occasioni speciali (fiere, eventi, ricorrenze), preferenze di uscita, embarghi, qualsiasi cosa dobbiamo sapere.</p>
+      <textarea class="textarea" id="note" name="note" placeholder="Lo spazio è tuo…"></textarea>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================ SUBMIT ================ -->
+<div class="submit-bar">
+  <div class="submit-note">
+    <strong>Grazie del tempo dedicato.</strong><br>
+    Al ricevimento del brief il team Content &amp; Digital PR ti risponderà entro <strong>48 ore lavorative</strong> con la proposta editoriale.
+  </div>
+  <button class="btn" type="submit" id="submitBtn">
+    Invia il brief <span class="arrow">→</span>
+  </button>
+</div>
+
+<div class="error-banner" id="errorBanner"></div>
+
+</form>
+
+<!-- CONTATTI -->
+<section class="contact">
+  <div class="contact-block">
+    <div class="contact-eyebrow">Content Lead</div>
+    <div class="contact-name">Clarissa Mingardi</div>
+    <div class="contact-role">Head of Content</div>
+    <a class="contact-mail" href="mailto:clarissa@fattorettosrl.it">clarissa@fattorettosrl.it</a>
+  </div>
+  <div class="contact-block">
+    <div class="contact-eyebrow">Digital PR Lead</div>
+    <div class="contact-name">Christian Paggiarin</div>
+    <div class="contact-role">Head of Digital PR</div>
+    <a class="contact-mail" href="mailto:christian@fattorettosrl.it">christian@fattorettosrl.it</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div>© Fattoretto Agency · Brief Co-Branding</div>
+  <div><a href="https://www.fattorettosrl.it" target="_blank" rel="noopener">fattorettosrl.it</a></div>
+</footer>
+
+</div>
+
+<!-- SUCCESS SCREEN -->
+<div class="success-screen" id="successScreen">
+  <div class="success-card">
+    <div class="success-icon">✓</div>
+    <div class="success-kicker">Brief inviato correttamente</div>
+    <h2 class="success-title">Grazie, abbiamo tutto.</h2>
+    <p class="success-body">Il team <strong>Content &amp; Digital PR</strong> di Fattoretto ha ricevuto il tuo brief e ti risponderà entro <strong>48 ore lavorative</strong> con una prima proposta editoriale e un angolo narrativo da validare insieme.</p>
+    <button class="success-close" onclick="location.reload()">Compila un altro brief</button>
+  </div>
+</div>
+
+<script>
+/* ============================================
+   CONFIG — Web3Forms
+   ============================================
+   1. Vai su https://web3forms.com
+   2. Crea un access key inserendo hello@fattorettosrl.it
+   3. Sostituisci la stringa qui sotto
+============================================ */
+const WEB3FORMS_KEY = "YOUR-WEB3FORMS-ACCESS-KEY-HERE";
+// L'access key deve essere generata usando l'email hello@fattorettosrl.it.
+// Gli altri 3 destinatari (massimo, clarissa, maria) sono raggiunti via
+// forward automatico configurato in Gmail hello@fattorettosrl.it — vedi README.
+
+/* ========== CHIP GROUPS ========== */
+document.querySelectorAll('.chip').forEach(chip=>{
+  const input = chip.querySelector('input');
+  chip.addEventListener('click',e=>{
+    if(e.target.tagName==='INPUT')return;
+    input.checked = !input.checked;
+    chip.classList.toggle('checked', input.checked);
+  });
+  input.addEventListener('change',()=>chip.classList.toggle('checked', input.checked));
+});
+
+/* ========== FILE UPLOAD ========== */
+const uploadZone = document.getElementById('uploadZone');
+const fileInput = document.getElementById('fileInput');
+const uploadList = document.getElementById('uploadList');
+let selectedFiles = [];
+const MAX_FILES = 1;  // Web3Forms free plan: solo 1 allegato via standard uploader
+const MAX_SIZE = 5 * 1024 * 1024;
+
+['dragover','dragenter'].forEach(ev=>uploadZone.addEventListener(ev,e=>{
+  e.preventDefault();uploadZone.classList.add('dragover');
+}));
+['dragleave','drop'].forEach(ev=>uploadZone.addEventListener(ev,e=>{
+  e.preventDefault();uploadZone.classList.remove('dragover');
+}));
+uploadZone.addEventListener('drop',e=>{
+  e.preventDefault();
+  handleFiles(e.dataTransfer.files);
+});
+fileInput.addEventListener('change',e=>handleFiles(e.target.files));
+
+const uploadSummary = document.getElementById('uploadSummary');
+const uploadTotalSize = document.getElementById('uploadTotalSize');
+document.getElementById('clearAll').addEventListener('click',()=>{
+  selectedFiles = [];
+  renderFiles();
+});
+
+function handleFiles(files){
+  for(const f of files){
+    if(selectedFiles.length>=MAX_FILES){
+      // Con un solo file, sostituiamo invece di bloccare — UX migliore
+      selectedFiles = [];
+    }
+    if(f.size>MAX_SIZE){alert(f.name+' supera i 5 MB. Per file più grandi, usa il campo "Link risorse" con Drive o WeTransfer.');continue;}
+    if(!f.type.startsWith('image/')){alert(f.name+' non è un\'immagine');continue;}
+    selectedFiles.push(f);
+    if(selectedFiles.length>=MAX_FILES) break;
+  }
+  renderFiles();
+}
+function fmtSize(bytes){
+  return bytes>1024*1024 ? (bytes/1024/1024).toFixed(1)+' MB' : (bytes/1024).toFixed(0)+' KB';
+}
+function renderFiles(){
+  uploadList.innerHTML='';
+  if(selectedFiles.length===0){
+    uploadSummary.classList.remove('active');
+    return;
+  }
+  uploadSummary.classList.add('active');
+  const total = selectedFiles.reduce((s,f)=>s+f.size,0);
+  uploadTotalSize.textContent = fmtSize(total);
+
+  selectedFiles.forEach((f,i)=>{
+    const div = document.createElement('div');
+    div.className='upload-file';
+    div.innerHTML=`
+      <div class="upload-file-thumb no-preview" data-i="${i}">IMG</div>
+      <div class="upload-file-meta">
+        <span class="fn" title="${f.name}">${f.name}</span>
+        <span class="fs">${fmtSize(f.size)}</span>
+      </div>
+      <button type="button" class="rm" data-i="${i}" aria-label="Rimuovi">×</button>`;
+    uploadList.appendChild(div);
+
+    // Load thumbnail preview
+    const thumb = div.querySelector('.upload-file-thumb');
+    const reader = new FileReader();
+    reader.onload = e => {
+      thumb.style.backgroundImage = `url(${e.target.result})`;
+      thumb.classList.remove('no-preview');
+      thumb.textContent = '';
+    };
+    reader.readAsDataURL(f);
+  });
+
+  uploadList.querySelectorAll('.rm').forEach(btn=>{
+    btn.addEventListener('click',(e)=>{
+      e.preventDefault();
+      e.stopPropagation();
+      selectedFiles.splice(+btn.dataset.i,1);
+      renderFiles();
+    });
+  });
+}
+
+/* ========== FORM SUBMIT ========== */
+const form = document.getElementById('briefForm');
+const submitBtn = document.getElementById('submitBtn');
+const errorBanner = document.getElementById('errorBanner');
+const successScreen = document.getElementById('successScreen');
+
+form.addEventListener('submit', async e=>{
+  e.preventDefault();
+  errorBanner.classList.remove('active');
+
+  if(!form.checkValidity()){
+    form.reportValidity();
+    return;
+  }
+
+  // Validate at least one settore selected
+  const settoreChecked = form.querySelectorAll('input[name="settore"]:checked').length;
+  if(settoreChecked===0){
+    showError('Seleziona almeno un settore di riferimento (§ 01).');
+    return;
+  }
+
+  // Build payload
+  const formData = new FormData(form);
+  const payload = new FormData();
+
+  payload.append('access_key', WEB3FORMS_KEY);
+  payload.append('subject', 'Nuovo Brief Co-Branding — ' + (formData.get('brand_name')||'Brand'));
+  payload.append('from_name', 'Brief Fattoretto — ' + (formData.get('brand_name')||''));
+  payload.append('replyto', formData.get('email_ref')||'');
+
+  // Collect grouped fields
+  const settoreVals = Array.from(form.querySelectorAll('input[name="settore"]:checked')).map(i=>i.value).join(', ');
+
+  // Human-readable message
+  const msg = `
+════════════════════════════════════════
+  BRIEF CO-BRANDING · FATTORETTO AGENCY
+════════════════════════════════════════
+
+▸ Ricevuto: ${new Date().toLocaleString('it-IT')}
+
+────────────────────────────────────────
+§ 01 — IDENTITÀ
+────────────────────────────────────────
+Brand:            ${formData.get('brand_name')||'—'}
+Sito web:         ${formData.get('website')||'—'}
+Referente:        ${formData.get('referente')||'—'}
+Email contatto:   ${formData.get('email_ref')||'—'}
+Settore:          ${settoreVals||'—'}
+Mercati:          ${formData.get('mercati')||'—'}
+
+────────────────────────────────────────
+§ 02 — POSIZIONAMENTO & NARRATIVA
+────────────────────────────────────────
+▸ Racconto del brand:
+${formData.get('descrizione')||'—'}
+
+▸ Valori del brand:
+${formData.get('valori')||'—'}
+
+▸ Tone of voice:
+${formData.get('tone_of_voice')||'—'}
+
+▸ Target di riferimento:
+${formData.get('target')||'—'}
+
+────────────────────────────────────────
+§ 03 — OFFERTA & PUNTI FORTI
+────────────────────────────────────────
+▸ Punti essenziali dell'offerta:
+${formData.get('offerta')||'—'}
+
+▸ USP — cosa vi rende unici:
+${formData.get('usp')||'—'}
+
+▸ Dati & numeri raccontabili:
+${formData.get('dati_numeri')||'—'}
+
+▸ Storie & retroscena:
+${formData.get('storie')||'—'}
+
+▸ Competitor:
+${formData.get('competitor')||'—'}
+
+────────────────────────────────────────
+§ 04 — ASSET & MATERIALI
+────────────────────────────────────────
+File allegati:    ${selectedFiles.length} file (allegato: ${selectedFiles.length>0 ? selectedFiles[0].name : 'nessuno'}${selectedFiles.length>1 ? ' — gli altri '+(selectedFiles.length-1)+' file sono stati compressi in preview ma non allegati per limite piano gratuito. Chiedere al cliente il link Drive/WeTransfer.' : ''})
+Link risorse:     ${formData.get('risorse_link')||'—'}
+
+▸ Note finali:
+${formData.get('note')||'—'}
+
+════════════════════════════════════════
+`;
+  payload.append('message', msg);
+
+  // Add individual fields (Web3Forms will list them too)
+  ['brand_name','website','referente','email_ref','mercati','descrizione','valori','tone_of_voice','target','offerta','usp','dati_numeri','storie','competitor','risorse_link','note'].forEach(k=>{
+    payload.append(k, formData.get(k)||'');
+  });
+  payload.append('settore', settoreVals);
+
+  // Attach first file only (Web3Forms free plan: 1 file, max 5MB via standard uploader).
+  // Per allegati multipli è richiesto piano PRO. Vedi note nel README.
+  // In alternativa, invitare il cliente a caricare le immagini in Drive/WeTransfer
+  // e incollare il link nel campo "Link risorse".
+  if(selectedFiles.length > 0){
+    payload.append('attachment', selectedFiles[0], selectedFiles[0].name);
+  }
+
+  // Honeypot
+  payload.append('botcheck', form.querySelector('[name=botcheck]').checked ? 'true' : '');
+
+  // UI: loading
+  submitBtn.disabled = true;
+  submitBtn.innerHTML = '<span class="spinner"></span> Invio in corso…';
+
+  try{
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method:'POST',
+      body: payload
+    });
+    const data = await res.json();
+    if(data.success){
+      successScreen.classList.add('active');
+      window.scrollTo({top:0, behavior:'smooth'});
+    }else{
+      throw new Error(data.message||'Errore invio.');
+    }
+  }catch(err){
+    showError('Si è verificato un problema durante l\'invio: '+err.message+' — Riprova o scrivici direttamente a hello@fattorettosrl.it');
+    submitBtn.disabled = false;
+    submitBtn.innerHTML = 'Invia il brief <span class="arrow">→</span>';
+  }
+});
+
+function showError(txt){
+  errorBanner.textContent = txt;
+  errorBanner.classList.add('active');
+  errorBanner.scrollIntoView({behavior:'smooth', block:'center'});
+}
+</script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"4edd5f8ec12a48cfa682ab8261b80a79","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
